@@ -1,0 +1,41 @@
+{
+   "abstract" : "a smokebrew plugin to configure things like BINGOS does",
+   "author" : [
+      "Chris Williams <chris@bingosnet.co.uk>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Dist::Zilla version 4.200000, CPAN::Meta::Converter version 2.102400",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "App-SmokeBrew-Plugin-BINGOS",
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "6.31"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "App::SmokeBrew" : "0.26",
+            "Moose" : "1.03",
+            "perl" : "v5.6.0"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "homepage" : "http://github.com/bingos/app-smokebrew-plugin-bingos/tree",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/bingos/app-smokebrew-plugin-bingos.git",
+         "web" : "http://github.com/bingos/app-smokebrew-plugin-bingos/tree"
+      }
+   },
+   "version" : "0.02"
+}
+
