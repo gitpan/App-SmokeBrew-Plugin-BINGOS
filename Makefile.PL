@@ -20,10 +20,10 @@ my %WriteMakefileArgs = (
   'LICENSE' => 'perl',
   'NAME' => 'App::SmokeBrew::Plugin::BINGOS',
   'PREREQ_PM' => {
-    'App::SmokeBrew' => '0.26',
+    'App::SmokeBrew' => '0.28',
     'Moose' => '1.03'
   },
-  'VERSION' => '0.02',
+  'VERSION' => '0.04',
   'test' => {
     'TESTS' => 't/*.t'
   }

@@ -1,6 +1,6 @@
 package App::SmokeBrew::Plugin::BINGOS;
 BEGIN {
-  $App::SmokeBrew::Plugin::BINGOS::VERSION = '0.02';
+  $App::SmokeBrew::Plugin::BINGOS::VERSION = '0.04';
 }
 
 #ABSTRACT: a smokebrew plugin to configure things like BINGOS does
@@ -166,7 +166,7 @@ $conf->set_conf( 'cpantest_reporter_args' =>
     {
       transport       => 'Socket',
       transport_args  => [ host => +;
-  $cpconf .= sprintf( '%s, port => %s ] } );', $self->relay, $self->port );
+  $cpconf .= sprintf( "'%s', port => '%s' ] } );", $self->relay, $self->port );
   $cpconf .= q+
 $conf->set_conf( email => $email );
 $conf->set_conf( makeflags => 'UNINST=1' );
@@ -200,7 +200,7 @@ App::SmokeBrew::Plugin::BINGOS - a smokebrew plugin to configure things like BIN
 
 =head1 VERSION
 
-version 0.02
+version 0.04
 
 =head1 SYNOPSIS
 
