@@ -23,7 +23,7 @@ my %WriteMakefileArgs = (
     'App::SmokeBrew' => '0.28',
     'Moose' => '1.03'
   },
-  'VERSION' => '0.04',
+  'VERSION' => '0.06',
   'test' => {
     'TESTS' => 't/*.t'
   }

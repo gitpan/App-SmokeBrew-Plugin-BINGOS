@@ -1,4 +1,14 @@
 ==============================
+2011-01-26 09:14:10 +0000 0.06
+==============================
+
+  commit d9d16e0428bdcaca14edaed62c19ac30f5f18829
+  Author: Chris 'BinGOs' Williams <chris@bingosnet.co.uk>
+  Date:   Wed Jan 26 09:14:10 2011 +0000
+  
+    Set the CPANPLUS configurations to 'prefer_bin' 
+
+==============================
 2011-01-14 12:23:46 +0000 0.04
 ==============================
 

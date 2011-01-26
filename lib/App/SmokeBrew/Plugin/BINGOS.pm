@@ -1,6 +1,6 @@
 package App::SmokeBrew::Plugin::BINGOS;
 BEGIN {
-  $App::SmokeBrew::Plugin::BINGOS::VERSION = '0.04';
+  $App::SmokeBrew::Plugin::BINGOS::VERSION = '0.06';
 }
 
 #ABSTRACT: a smokebrew plugin to configure things like BINGOS does
@@ -109,6 +109,7 @@ my $ConfigFile  = $ConfObj->_config_pm_to_file( $Config => $PRIV_LIB );
         $ConfObj->set_conf( base    => $BASE );     # new base dir
         $ConfObj->set_conf( verbose => 1     );     # be verbose
         $ConfObj->set_conf( prereqs => 1     );     # install prereqs
+        $ConfObj->set_conf( prefer_bin => 1 );
         $ConfObj->set_conf( prefer_makefile => 1 ); # prefer Makefile.PL because of v5.10.0
         $ConfObj->set_conf( enable_custom_sources => 0 ); # install prereqs
         $ConfObj->set_conf( hosts => + . $self->_mirrors . q+ );
@@ -161,6 +162,7 @@ GetOptions( 'mx=s', \$mx, 'email=s', \$email );
 
 my $conf = CPANPLUS::Configure->new();
 $conf->set_conf( verbose => 1 );
+$conf->set_conf( prefer_bin => 1 );
 $conf->set_conf( cpantest => 'dont_cc' );
 $conf->set_conf( 'cpantest_reporter_args' => 
     {
@@ -200,7 +202,7 @@ App::SmokeBrew::Plugin::BINGOS - a smokebrew plugin to configure things like BIN
 
 =head1 VERSION
 
-version 0.04
+version 0.06
 
 =head1 SYNOPSIS
 
