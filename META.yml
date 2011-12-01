@@ -4,9 +4,9 @@ author:
   - 'Chris Williams <chris@bingosnet.co.uk>'
 build_requires: {}
 configure_requires:
-  ExtUtils::MakeMaker: 6.31
+  ExtUtils::MakeMaker: 6.30
 dynamic_config: 0
-generated_by: 'Dist::Zilla version 4.200001, CPAN::Meta::Converter version 2.102400'
+generated_by: 'Dist::Zilla version 4.300003, CPAN::Meta::Converter version 2.112621'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -17,6 +17,6 @@ requires:
   Moose: 1.03
   perl: v5.6.0
 resources:
-  homepage: http://github.com/bingos/app-smokebrew-plugin-bingos/tree
-  repository: git://github.com/bingos/app-smokebrew-plugin-bingos.git
-version: 0.06
+  homepage: https://github.com/bingos/app-smokebrew-plugin-bingos
+  repository: https://github.com/bingos/app-smokebrew-plugin-bingos.git
+version: 0.08

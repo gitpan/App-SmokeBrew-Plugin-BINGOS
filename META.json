@@ -4,7 +4,7 @@
       "Chris Williams <chris@bingosnet.co.uk>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Zilla version 4.200001, CPAN::Meta::Converter version 2.102400",
+   "generated_by" : "Dist::Zilla version 4.300003, CPAN::Meta::Converter version 2.112621",
    "license" : [
       "perl_5"
    ],
@@ -16,7 +16,7 @@
    "prereqs" : {
       "configure" : {
          "requires" : {
-            "ExtUtils::MakeMaker" : "6.31"
+            "ExtUtils::MakeMaker" : "6.30"
          }
       },
       "runtime" : {
@@ -29,13 +29,13 @@
    },
    "release_status" : "stable",
    "resources" : {
-      "homepage" : "http://github.com/bingos/app-smokebrew-plugin-bingos/tree",
+      "homepage" : "https://github.com/bingos/app-smokebrew-plugin-bingos",
       "repository" : {
          "type" : "git",
-         "url" : "git://github.com/bingos/app-smokebrew-plugin-bingos.git",
-         "web" : "http://github.com/bingos/app-smokebrew-plugin-bingos/tree"
+         "url" : "https://github.com/bingos/app-smokebrew-plugin-bingos.git",
+         "web" : "https://github.com/bingos/app-smokebrew-plugin-bingos"
       }
    },
-   "version" : "0.06"
+   "version" : "0.08"
 }
 

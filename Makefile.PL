@@ -2,30 +2,30 @@
 use strict;
 use warnings;
 
-BEGIN { require v5.6.0; }
+use 5.006000;
 
-use ExtUtils::MakeMaker 6.31;
+use ExtUtils::MakeMaker 6.30;
 
 
 
 my %WriteMakefileArgs = (
-  'ABSTRACT' => 'a smokebrew plugin to configure things like BINGOS does',
-  'AUTHOR' => 'Chris Williams <chris@bingosnet.co.uk>',
-  'BUILD_REQUIRES' => {},
-  'CONFIGURE_REQUIRES' => {
-    'ExtUtils::MakeMaker' => '6.31'
+  "ABSTRACT" => "a smokebrew plugin to configure things like BINGOS does",
+  "AUTHOR" => "Chris Williams <chris\@bingosnet.co.uk>",
+  "BUILD_REQUIRES" => {},
+  "CONFIGURE_REQUIRES" => {
+    "ExtUtils::MakeMaker" => "6.30"
   },
-  'DISTNAME' => 'App-SmokeBrew-Plugin-BINGOS',
-  'EXE_FILES' => [],
-  'LICENSE' => 'perl',
-  'NAME' => 'App::SmokeBrew::Plugin::BINGOS',
-  'PREREQ_PM' => {
-    'App::SmokeBrew' => '0.28',
-    'Moose' => '1.03'
+  "DISTNAME" => "App-SmokeBrew-Plugin-BINGOS",
+  "EXE_FILES" => [],
+  "LICENSE" => "perl",
+  "NAME" => "App::SmokeBrew::Plugin::BINGOS",
+  "PREREQ_PM" => {
+    "App::SmokeBrew" => "0.28",
+    "Moose" => "1.03"
   },
-  'VERSION' => '0.06',
-  'test' => {
-    'TESTS' => 't/*.t'
+  "VERSION" => "0.08",
+  "test" => {
+    "TESTS" => "t/*.t"
   }
 );
 
