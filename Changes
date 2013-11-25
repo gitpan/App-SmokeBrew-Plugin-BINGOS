@@ -1,39 +1,69 @@
-==============================
-2011-12-01 21:31:59 +0000 0.08
-==============================
+==================================================
+Changes from 2008-11-26 00:00:00 +0000 to present.
+==================================================
 
-  commit 290a34e7dcd9fb675beb05140b616182839588c4
+-----------------------------------------
+version 0.10 at 2013-11-25 20:01:57 +0000
+-----------------------------------------
+
+  Change: dc36832762e87941760dc2da227e5379737ac18a
   Author: Chris 'BinGOs' Williams <chris@bingosnet.co.uk>
-  Date:   Thu Dec 1 21:31:59 2011 +0000
-  
+  Date : 2013-11-25 20:01:57 +0000
+
+    Move update/install of version before EUMM and M::B 
+
+-----------------------------------------
+version 0.08 at 2011-12-01 21:31:59 +0000
+-----------------------------------------
+
+  Change: 290a34e7dcd9fb675beb05140b616182839588c4
+  Author: Chris 'BinGOs' Williams <chris@bingosnet.co.uk>
+  Date : 2011-12-01 21:31:59 +0000
+
     Move update/install of EUMM before M::B 
 
-==============================
-2011-01-26 09:14:10 +0000 0.06
-==============================
+-----------------------------------------
+version 0.06 at 2011-01-26 09:14:10 +0000
+-----------------------------------------
 
-  commit d9d16e0428bdcaca14edaed62c19ac30f5f18829
+  Change: d9d16e0428bdcaca14edaed62c19ac30f5f18829
   Author: Chris 'BinGOs' Williams <chris@bingosnet.co.uk>
-  Date:   Wed Jan 26 09:14:10 2011 +0000
-  
+  Date : 2011-01-26 09:14:10 +0000
+
     Set the CPANPLUS configurations to 'prefer_bin' 
 
-==============================
-2011-01-14 12:23:46 +0000 0.04
-==============================
+-----------------------------------------
+version 0.04 at 2011-01-14 12:23:46 +0000
+-----------------------------------------
 
-  commit e3ca6086a1a3cc1e35351f1b0772b14f542e40a2
+  Change: e3ca6086a1a3cc1e35351f1b0772b14f542e40a2
   Author: Chris 'BinGOs' Williams <chris@bingosnet.co.uk>
-  Date:   Fri Jan 14 12:23:46 2011 +0000
-  
-    Bump to smokebrew prereq version to 0.28
+  Date : 2011-01-14 12:23:46 +0000
 
-  commit 7b174f5baef4bad5e02c4c0bf17d2257e54e9923
+    Bump to smokebrew prereq version to 0.28 
+
+  Change: 7b174f5baef4bad5e02c4c0bf17d2257e54e9923
   Author: Chris 'BinGOs' Williams <chris@bingosnet.co.uk>
-  Date:   Fri Jan 14 12:23:21 2011 +0000
-  
+  Date : 2011-01-14 12:23:21 +0000
+
     Fix the cpconf script generation 
 
-====================================
-End of changes in the last 1825 days
-====================================
+-----------------------------------------
+version 0.02 at 2011-01-10 14:21:52 +0000
+-----------------------------------------
+
+  Change: e68d2eb3ccce240d3fd95bac3c1b8c8264c43bc2
+  Author: Chris 'BinGOs' Williams <chris@bingosnet.co.uk>
+  Date : 2011-01-10 14:21:52 +0000
+
+    Add more documentation 
+
+  Change: 7eb55530021709e70031c3940c91ac14bd0fa65f
+  Author: Chris 'BinGOs' Williams <chris@bingosnet.co.uk>
+  Date : 2011-01-10 13:59:31 +0000
+
+    Go 
+
+================
+End of releases.
+================

@@ -2,11 +2,15 @@
 abstract: 'a smokebrew plugin to configure things like BINGOS does'
 author:
   - 'Chris Williams <chris@bingosnet.co.uk>'
-build_requires: {}
+build_requires:
+  File::Spec: 0
+  IO::Handle: 0
+  IPC::Open3: 0
+  Test::More: 0
 configure_requires:
   ExtUtils::MakeMaker: 6.30
 dynamic_config: 0
-generated_by: 'Dist::Zilla version 4.300003, CPAN::Meta::Converter version 2.112621'
+generated_by: 'Dist::Zilla version 5.006, CPAN::Meta::Converter version 2.132830'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -19,4 +23,4 @@ requires:
 resources:
   homepage: https://github.com/bingos/app-smokebrew-plugin-bingos
   repository: https://github.com/bingos/app-smokebrew-plugin-bingos.git
-version: 0.08
+version: 0.10
